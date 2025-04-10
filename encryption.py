@@ -36,6 +36,7 @@ def decrypt(ciphertext, key):
     return plaintext
 
 # ==== Main Function ====
+# plaintext = input("Enter the plaintext to encrypt (letters only): ").strip()
 plaintext = "Austin Sternberg"
 
 secret_key = random.randint(1, 100)  # Generate a random key for encryption
